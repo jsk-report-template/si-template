@@ -40,7 +40,7 @@ ifndef LATEXMK
 	@echo 'installing components...'
 ifeq ($(OS), Linux)
 ifeq ($(VERSION), 18.04)
-	sudo apt install -y -qq texlive texlive-lang-cjk texlive-science texlive-fonts-recommended texlive-fonts-extra texlive-lang-japanese xdvik-ja gv latexmk
+	sudo apt install -y -qq texlive texlive-lang-cjk texlive-science texlive-fonts-recommended texlive-fonts-extra texlive-lang-cjk xdvik-ja gv latexmk
 else
 	sudo apt install -y -qq texlive texlive-lang-cjk texlive-science texlive-fonts-recommended texlive-fonts-extra xdvik-ja dvipsk-ja gv latexmk
 endif
